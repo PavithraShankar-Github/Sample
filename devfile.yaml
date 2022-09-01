@@ -12,9 +12,6 @@ attributes:
         location: 'https://github.com/PavithraShankar-Github/Sample.git'
       factory:
         params: 'url=https://github.com/PavithraShankar-Github/Sample.git'
-    che.eclipse.org/last-updated-timestamp: '2022-08-30T07:38:44.317Z'
-  metadata-name-field: generateName
-  metadata-name-original-value: docker-code
 projects:
   - git:
       remotes:
