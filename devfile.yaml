@@ -3,10 +3,10 @@ apiVersion: 1.0.0
 metadata:
   generateName: Sample
 projects:
-  - git:
-      remotes:
-        origin: 'https://github.com/PavithraShankar-Github/Sample.git'
-    name: docker-code
+  - name: Sample-source
+  source:
+      type: git
+      location: 'https://github.com/PavithraShankar-Github/Sample.git'
 components:
   -
     type: dockerimage
