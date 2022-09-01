@@ -1,8 +1,7 @@
 ---
 apiVersion: 1.0.0
 metadata:
-  name: docker-code
-  namespace: admin-che
+  generateName: Sample
 projects:
   - git:
       remotes:
