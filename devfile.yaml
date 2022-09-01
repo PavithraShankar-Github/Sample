@@ -2,10 +2,22 @@
 apiVersion: 1.0.0
 metadata:
   generateName: docker-code
+attributes:
+  che-theia.eclipse.org/sidecar-policy: mergeImage
+  dw.metadata.annotations:
+    che.eclipse.org/che-editor: eclipse/che-theia/latest
+    che.eclipse.org/devfile-source: |
+      url:
+        location: 'https://github.com/PavithraShankar-Github/Sample.git'
+      factory:
+        params: 'url=https://github.com/PavithraShankar-Github/Sample.git'
+    che.eclipse.org/last-updated-timestamp: '2022-08-30T07:38:44.317Z'
+  metadata-name-field: generateName
+  metadata-name-original-value: Sample
 projects:
   - git:
       remotes:
-         origin: 'https://github.com/PavithraShankar-Github/Sample.git'
+        origin: 'https://github.com/PavithraShankar-Github/Sample.git'
     name: Sample
 components:
   -
