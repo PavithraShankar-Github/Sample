@@ -8,11 +8,10 @@ projects:
       type: git
       location: "https://github.com/PavithraShankar-Github/Sample.git"
 components:
-  -
-    type: dockerimage
-    alias: hello-world
-    image: docker.io/library/hello-world:latest
-    memoryLimit: 512Mi
   - type: cheEditor
     id: eclipse/che-theia/next
+    memoryLimit: 512Mi
+  - type: dockerimage
+    alias: helloworld
+    image: docker.io/library/hello-world:latest
     memoryLimit: 512Mi
