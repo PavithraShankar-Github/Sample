@@ -4,7 +4,7 @@ metadata:
   generateName: Sample
 projects:
   - name: Sample-source
-  source:
+    source:
       type: git
       location: 'https://github.com/PavithraShankar-Github/Sample.git'
 components:
