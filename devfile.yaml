@@ -12,5 +12,5 @@ components:
     type: dockerimage
     alias: hello-world
     image: docker.io/library/hello-world:latest
-    memoryLimit: 512Mi
-    mountSources: true
+  - type: cheEditor
+    id: eclipse/che-theia/next
