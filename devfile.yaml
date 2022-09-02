@@ -12,6 +12,11 @@ components:
     id: eclipse/che-theia/next
     memoryLimit: 512Mi
   - type: dockerimage
-    alias: helloworld
-    image: docker.io/library/hello-world:latest
+    alias: nginx
+    image: docker.io/library/nginx:latest
     memoryLimit: 512Mi
+    env:
+      - name: NGINX_HOST
+        value: foobar.com
+      - name: NGINX_PORT
+        value: 8000
