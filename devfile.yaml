@@ -19,4 +19,4 @@ components:
       - name: NGINX_HOST
         value: foobar.com
       - name: NGINX_PORT
-        value: 8000
+        value: "8000"
